@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+networkx = "*"
+scipy = "*"
+nilearn = "*"
+numpy = "*"
+matplotlib = "*"
+tensorflow = "*"
+
+[dev-packages]
+ipykernel = "*"
+autopep8 = "*"
+
+[requires]
+python_version = "3.8"
+python_full_version = "3.8.0"
